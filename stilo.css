@@ -1,0 +1,664 @@
+
+/**font-family: 'Francois One', sans-serif;
+font-family: 'Fredoka One', cursive;**/
+
+section{
+    overflow: hidden;
+}
+
+nav{
+    background-color:black;
+}
+
+h1{
+    font-family: 'Fredoka One';
+    font-size:1.9rem;
+}
+
+h2{
+    color:green;
+    font-size:1.3rem
+}
+
+.titulo{
+    font-family: 'Fredoka One';
+}
+.load{
+    font-family: 'Fredoka One';
+        font-size:1.2rem;
+        color:white;
+        padding-left: 1rem;
+    }
+.funciones{
+        font-family: 'Fredoka One';
+     
+    }
+    .pantalla{
+        font-family: 'Fredoka One';
+      
+    }
+.procedimiento{
+        font-weight: 500;   
+}
+    .contacto{
+        font-family: 'Fredoka One';
+       
+    }
+    .play{
+        
+        padding-top:6.5rem;
+        padding-left: 2rem;
+    }
+
+
+.social{
+        font-size:1.2rem;
+    }
+    .fa-facebook{
+        color: rgba(31, 74, 216, 0.8);
+    }
+    .fa-youtube{
+        color: #cb1818;
+    }
+    .fa-twitter{
+        color: #1ec7c7;
+    }
+    .fa-instagram{
+        color: blueviolet;
+    }
+    .fa-linkedin{
+        color: dodgerblue;
+    }
+.app{
+        height:20rem;
+        background: url(img/descarga.jpg) no-repeat center center;
+        -webkit-background-size: cover;
+        background-size:cover;
+    }
+        .acerca{
+       background: rgb(28, 146, 210);  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #f2fcfe, rgba(28, 146, 210, 0.83));  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #f2fcfe, rgba(28, 146, 210, 0.77)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    }
+    #pantallas{
+background-color: lightgrey;
+}
+ .boton img{
+        -webkit-transform:scale(0.9);
+        -ms-transform:scale(0.9);
+        -o-transform:scale(0.9);
+        transform:scale(0.9);
+        -webkit-transition:.3s ease-out;
+        -o-transition:.3s ease-out;
+        transition:.3s ease-out;
+    }
+    
+    .boton img:hover{
+        -webkit-transform:scale(1);
+        -ms-transform:scale(1);
+        -o-transform:scale(1);
+        transform:scale(1);
+        -webkit-transition:.3s ease-in;
+        -o-transition:.3s ease-in;
+        transition:.3s ease-in;
+    }
+.transporte, .empresa, .descargar, .ayuda{
+        line-height:0.5;
+    }
+.social{
+    padding-right:4rem;
+}
+footer{
+        background-color: black;
+        color: white;
+    }
+.derechos{
+    font-size:0.5rem;
+    line-height:12;
+}
+.borde{
+    height:357px;
+    padding:2px;
+    border:1px solid black; 
+}
+
+ #contacto{
+        background: url(img/fondobotoneras.png) repeat;
+    } 
+@media(min-width:576px){
+    h1{
+        font-family: 'Fredoka One';
+        font-size:1.4rem;
+}
+    h2{
+        font-size:1rem; 
+    }
+    .presentacion{
+        color: black;
+        font-size:0.9rem;
+    }
+     .mapa{
+        background: url(img/mapa.jpg) no-repeat center center;
+        -webkit-background-size: cover;
+        background-size:cover;
+    }
+
+         .acerca{
+       background: rgb(28, 146, 210);  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #f2fcfe, rgba(28, 146, 210, 0.83));  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #f2fcfe, rgba(28, 146, 210, 0.77)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    }
+    #pantallas{
+background-color: lightgrey;
+}
+    .titulo{
+        font-family: 'Fredoka One';
+        font-size:1.5rem;
+    }
+    .texto{
+        font-size: 0.9rem;
+    }
+    .funciones{
+        font-family: 'Fredoka One';
+        font-size:1.8rem;
+    }
+    .pantalla{
+        font-family: 'Fredoka One';
+        font-size: 2rem;
+    }
+    .contacto{
+        font-family: 'Fredoka One';
+        font-size: 2.2rem;
+    }
+    .procedimiento{
+        font-weight: 500;   
+}
+    
+    .text{
+        font-size: 0.9rem;
+    }  
+    
+    
+    .app{
+        height:25rem;
+        background: url(img/descarga.jpg) no-repeat center center;
+        -webkit-background-size: cover;
+        background-size:cover;
+    }
+    .load{
+        font-family: 'Fredoka One';
+        font-size:1.8rem;
+        color:green;
+        
+    }
+    .play{
+        
+        padding-top:10rem;
+    }
+
+.social{
+    
+    font-size:1.8rem;
+}
+    
+     .boton img{
+        -webkit-transform:scale(0.9);
+        -ms-transform:scale(0.9);
+        -o-transform:scale(0.9);
+        transform:scale(0.9);
+        -webkit-transition:.3s ease-out;
+        -o-transition:.3s ease-out;
+        transition:.3s ease-out;
+    }
+    
+    .boton img:hover{
+        -webkit-transform:scale(1);
+        -ms-transform:scale(1);
+        -o-transform:scale(1);
+        transform:scale(1);
+        -webkit-transition:.3s ease-in;
+        -o-transition:.3s ease-in;
+        transition:.3s ease-in;
+    }
+  
+    .fa-facebook{
+        color: rgba(31, 74, 216, 0.8);
+    }
+    .fa-youtube{
+        color: #cb1818;
+    }
+    .fa-twitter{
+        color: #1ec7c7;
+    }
+    .fa-instagram{
+        color: blueviolet;
+    }
+    .fa-linkedin{
+        color: dodgerblue;
+    }
+    footer{
+        background-color: black;
+        color: white;
+    }
+    
+    .transporte, .empresa, .descargar, .ayuda{
+        line-height:0.5;
+    }
+    .derechos{
+    font-size:0.6rem;
+        line-height:10;
+    
+}
+    
+}
+
+
+@media(min-width:768px){
+    
+   
+    h1{
+        font-family: 'Fredoka One';
+    font-size:2.2rem; 
+    
+}
+    h2{
+        font-size:1.65rem; 
+    }
+    
+     .presentacion{
+        color: black;
+        font-size: 1rem;
+        font-weight:400;
+    }
+    
+     .mapa{
+        background: url(img/mapa.jpg) no-repeat center center;
+        -webkit-background-size: cover;
+        background-size:cover;
+    }
+     .acerca{
+       background: rgb(28, 146, 210);  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #f2fcfe, rgba(28, 146, 210, 0.83));  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #f2fcfe, rgba(28, 146, 210, 0.77)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    }
+    #pantallas{
+background-color: lightgrey;
+}
+    .titulo{
+        font-family: 'Fredoka One';
+        font-size:2rem;
+    }
+    .texto{
+        font-size: 1rem;
+    }
+    .text{
+        font-size: 0.9rem;
+    }  
+    
+    .procedimiento{
+        font-weight: 500;
+}
+    .funciones{
+        font-family: 'Fredoka One';
+        font-size: 2rem;
+    }
+    
+    .pantalla{
+        font-family: 'Fredoka One';
+        font-size: 2rem;
+    }
+    
+    .contacto{
+        font-family: 'Fredoka One';
+        font-size: 2.2rem;
+    }
+    .load{
+        font-family: 'Fredoka One';
+        font-size:2.3rem;
+        color: green;
+        
+    }
+    .app{
+        height:30rem;
+        background: url(img/descarga.jpg) no-repeat center center;
+        -webkit-background-size: cover;
+        background-size:cover;
+    }
+    
+     .boton img{
+        -webkit-transform:scale(0.9);
+        -ms-transform:scale(0.9);
+        -o-transform:scale(0.9);
+        transform:scale(0.9);
+        -webkit-transition:.3s ease-out;
+        -o-transition:.3s ease-out;
+        transition:.3s ease-out;
+    }
+    
+    .boton img:hover{
+        -webkit-transform:scale(1);
+        -ms-transform:scale(1);
+        -o-transform:scale(1);
+        transform:scale(1);
+        -webkit-transition:.3s ease-in;
+        -o-transition:.3s ease-in;
+        transition:.3s ease-in;
+    }
+
+    .social{
+        font-size:2.8rem;
+    }
+    .fa-facebook{
+        color: rgba(31, 74, 216, 0.8);
+    }
+    .fa-youtube{
+        color: #cb1818;
+    }
+    .fa-twitter{
+        color: #1ec7c7;
+    }
+    .fa-instagram{
+        color: blueviolet;
+    }
+    .fa-linkedin{
+        color: dodgerblue;
+    }
+    footer{
+        background-color: black;
+        color: white;
+    }
+     .derechos{
+    font-size:0.85rem;
+        line-height:8;
+    
+}
+    .transporte, .empresa, .descargar, .ayuda{
+        line-height:0.5;
+    }
+    
+     .mapa{
+        background: url(img/probar.png) no-repeat fixed;
+    }
+ }
+
+@media(min-width:992px){
+    h1{
+        font-family: 'Fredoka One';
+    font-size: 2.9rem;
+}
+    
+    h2{
+        font-size:1.9rem;
+    }
+    
+    .presentacion{
+        color: black;
+        font-size: 1.2rem;
+        font-weight:400;
+    }
+    .mapa{
+        background: url(img/mapa.jpg) no-repeat center center;
+        -webkit-background-size: cover;
+        background-size:cover;
+    }
+   
+    
+    
+     .acerca{
+        background: rgb(28, 146, 210);  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #f2fcfe, rgba(28, 146, 210, 0.83));  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #f2fcfe, rgba(28, 146, 210, 0.77)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    }
+    .titulo{
+        font-family: 'Fredoka One';
+        font-size:2.3rem;
+    }
+    .texto{
+        font-size: 1rem;
+    }
+    .text{
+        font-size:1rem;
+    }  
+    .procedimiento{
+        font-weight: 500;     
+        
+}
+    .funciones{
+        font-family: 'Fredoka One';
+        font-size: 2.3rem;
+    }
+    
+    .pantalla{
+        font-family: 'Fredoka One';
+        font-size: 2.3rem;
+    }
+    
+    .contacto{
+        font-family: 'Fredoka One';
+        font-size: 2.3rem;
+    }
+    .load{
+        font-family: 'Fredoka One';
+        font-size:2.9rem;
+        color: green;
+        padding-top: 2rem;
+        
+    }
+    .play{
+        
+        padding-top:18rem;
+    }
+    
+    .app{
+        height:38rem;
+        background: url(img/descarga.jpg) no-repeat center center;
+        -webkit-background-size: cover;
+        background-size:cover;
+    }
+    .redes{
+        padding-right: 9rem;
+    }
+    .social{
+        font-size:2rem;
+        line-height: 0.8;
+    }
+    
+    .boton img{
+        -webkit-transform:scale(0.9);
+        -ms-transform:scale(0.9);
+        -o-transform:scale(0.9);
+        transform:scale(0.9);
+        -webkit-transition:.3s ease-out;
+        -o-transition:.3s ease-out;
+        transition:.3s ease-out;
+    }
+    
+    .boton img:hover{
+        -webkit-transform:scale(1);
+        -ms-transform:scale(1);
+        -o-transform:scale(1);
+        transform:scale(1);
+        -webkit-transition:.3s ease-in;
+        -o-transition:.3s ease-in;
+        transition:.3s ease-in;
+    }
+  
+    .fa-facebook{
+        color: rgba(31, 74, 216, 0.8);
+    }
+    .fa-youtube{
+        color: #cb1818;
+    }
+    .fa-twitter{
+        color: #1ec7c7;
+    }
+    .fa-instagram{
+        color: blueviolet;
+    }
+    .fa-linkedin{
+        color: dodgerblue;
+    }
+    footer{
+        background-color: black;
+        color: white;
+    }
+     .derechos{
+    font-size:1.1rem;
+        line-height:6;
+    
+}
+     #pantallas{
+background-color: lightgrey;
+}
+    .transporte, .empresa, .descargar, .ayuda{
+        line-height:0.5;
+    }
+    
+     .mapa{
+        background: url(img/probar.png) no-repeat fixed;
+    }
+    }
+
+
+@media(min-width:1200px){
+    h1{
+        font-family: 'Fredoka One';
+    font-size: 3.15rem;
+}
+    h2{
+        font-size:2.1rem;
+    }
+    .presentacion{
+        color: black;
+        font-size: 1.2rem;
+        font-weight:400;
+    }
+    .mapa{
+        background: url(img/mapa.jpg) no-repeat center center;
+        -webkit-background-size: cover;
+        background-size:cover;
+    }
+    .acerca{
+     background: rgb(28, 146, 210);  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #f2fcfe, rgba(28, 146, 210, 0.83));  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #f2fcfe, rgba(28, 146, 210, 0.77)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+;
+    }
+    
+    .titulo{
+        font-family: 'Fredoka One';
+        font-size:2.6rem;
+    }
+    .texto{
+        font-size: 1.1rem;
+    }
+     .text{
+        font-size:1.1rem;
+    }  
+    .procedimiento{
+        font-weight: 500;
+    }
+    
+    .funciones{
+        font-family: 'Fredoka One';
+        font-size: 2.6rem;
+    }
+    .pantalla{
+        font-family: 'Fredoka One';
+        font-size: 2.6rem;
+    }
+    
+    .load{
+        font-family: 'Fredoka One';
+        font-size:2.9rem;
+        color:white;
+        padding-top: 2.8rem;
+        
+    }
+    .play{
+        
+        padding-top:23rem;
+    }
+    
+    .contacto{
+        
+        font-family: 'Fredoka One';
+        font-size: 2.6rem;
+    }
+    .app{
+        height:45rem;
+        background: url(img/descarga.jpg) no-repeat center center;
+        -webkit-background-size: cover;
+        background-size:cover;
+    }
+    .social{
+        font-size:3rem;
+    }
+    .fa-facebook{
+        color: rgba(31, 74, 216, 0.8);
+    }
+    .fa-youtube{
+        color: #cb1818;
+    }
+    .fa-twitter{
+        color: #1ec7c7;
+    }
+    .fa-instagram{
+        color: blueviolet;
+    }
+    .fa-linkedin{
+        color: dodgerblue;
+    }
+    #pantallas{
+background-color: lightgrey;
+
+    }
+    .boton img{
+        -webkit-transform:scale(0.9);
+        -ms-transform:scale(0.9);
+        -o-transform:scale(0.9);
+        transform:scale(0.9);
+        -webkit-transition:.3s ease-out;
+        -o-transition:.3s ease-out;
+        transition:.3s ease-out;
+    }
+    
+    .boton img:hover{
+        -webkit-transform:scale(1);
+        -ms-transform:scale(1);
+        -o-transform:scale(1);
+        transform:scale(1);
+        -webkit-transition:.3s ease-in;
+        -o-transition:.3s ease-in;
+        transition:.3s ease-in;
+    }
+    
+    .derechos{
+    font-size:1.4rem;
+        line-height:5;
+        
+    
+}
+    footer{
+        background-color: black;
+        color: white;
+    }
+    
+    
+    .transporte, .empresa, .descargar, .ayuda{
+        line-height:0.5;
+    }
+    .mapa{
+        background: url(img/probar.png) no-repeat fixed;
+    }
+    #contacto{
+        background: url(img/fondobotoneras.png) repeat fixed;
+        
+    }
+
+}
